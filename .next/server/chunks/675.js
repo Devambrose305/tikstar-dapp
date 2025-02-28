@@ -1,0 +1,1 @@
+"use strict";exports.id=675,exports.ids=[675],exports.modules={2675:(e,s,t)=>{t.r(s),t.d(s,{$$typeof:()=>d,__esModule:()=>o,default:()=>n});let r=(0,t(6843).createProxy)(String.raw`C:\Users\brose\Documents\Frontend_Dev\src\components\Web3Test.tsx`),{__esModule:o,$$typeof:d}=r,n=r.default}};
