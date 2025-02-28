@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-tiktok: 'SofiaPro', system-ui, sans-serif;
+    --font-noto: 'Noto Sans SC', system-ui, sans-serif;
+  }
+}
+
+/* Custom Font Styles */
+@layer utilities {
+  .text-display {
+    @apply font-sans tracking-tighter;
+  }
+  
+  .text-chinese {
+    @apply font-chinese tracking-tight;
+  }
+}
+
+/* Modern Font Smoothing */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
